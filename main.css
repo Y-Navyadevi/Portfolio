@@ -27,8 +27,8 @@ body {
 }
 
 #i {
-    height: 285px;
-    width: 400px;
+    height: 320px;
+    width: 240px;
     float:right;
     margin:25px
 }
@@ -202,6 +202,7 @@ body {
   height: 300px;
   perspective: 1000px;
   margin: 50px;
+  display: inline-block;
 }
 
 .flip-card-inner {
@@ -232,7 +233,7 @@ body {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: rgba(34, 6, 17, 0.89);
   color: white;
   transform: rotateY(180deg);
 }
@@ -242,8 +243,9 @@ body {
 
   text-align: center;
   padding:20px;
-  background-color:rgba(44, 44, 44, 0.89);
+  background-color:rgba(34, 6, 17, 0.89);
   color: #f2f2f2;
+  
 
 }
 
@@ -260,7 +262,7 @@ body {
 
   text-align: center;
   padding:20px;
-  background-color:rgba(44, 44, 44, 0.89);
+  background-color:rgba(34, 6, 17, 0.89);
   color: #f2f2f2;
 
 }
